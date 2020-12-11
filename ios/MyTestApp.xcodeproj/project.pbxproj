@@ -20,7 +20,6 @@
 		78A24603F6FA90A9F7A2431C /* libPods-MyTestApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E674DB6A64675D0E2C7A2B /* libPods-MyTestApp.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		84870A73257F380600DCCD7D /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84870A72257F380600DCCD7D /* AppCenter-Config.plist */; };
-		84870A79257F382900DCCD7D /* ios in Resources */ = {isa = PBXBuildFile; fileRef = 84870A78257F382900DCCD7D /* ios */; };
 		EF94834723F71B6CD14C2AD1 /* libPods-MyTestApp-MyTestAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D7821C445111C9F65AFB921 /* libPods-MyTestApp-MyTestAppTests.a */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +41,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* MyTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* MyTestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTestAppTests.m; sourceTree = "<group>"; };
@@ -62,7 +60,6 @@
 		72C92A9D7C40470C3CABDDDC /* libPods-MyTestApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyTestApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MyTestApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84870A72257F380600DCCD7D /* AppCenter-Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
-		84870A78257F382900DCCD7D /* ios */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ios; sourceTree = "<group>"; };
 		8619A5E8B36BE057FF81C4FB /* Pods-MyTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTestApp.debug.xcconfig"; path = "Target Support Files/Pods-MyTestApp/Pods-MyTestApp.debug.xcconfig"; sourceTree = "<group>"; };
 		8D7821C445111C9F65AFB921 /* libPods-MyTestApp-MyTestAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyTestApp-MyTestAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3FE166700FDA7B09F1D3B8F /* libPods-MyTestApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyTestApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,7 +126,6 @@
 		13B07FAE1A68108700A75B9A /* MyTestApp */ = {
 			isa = PBXGroup;
 			children = (
-				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -179,7 +175,6 @@
 			isa = PBXGroup;
 			children = (
 				84870A72257F380600DCCD7D /* AppCenter-Config.plist */,
-				84870A78257F382900DCCD7D /* ios */,
 				13B07FAE1A68108700A75B9A /* MyTestApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* MyTestAppTests */,
@@ -299,7 +294,9 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = KCP8V8684D;
 						LastSwiftMigration = 1120;
+						ProvisioningStyle = Manual;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -347,7 +344,6 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				84870A79257F382900DCCD7D /* ios in Resources */,
 				84870A73257F380600DCCD7D /* AppCenter-Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -662,7 +658,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KCP8V8684D;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MyTestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -671,8 +670,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.truongluu.MyTestApp;
 				PRODUCT_NAME = MyTestApp;
+				PROVISIONING_PROFILE_SPECIFIER = "TruongLuu MyTestApp  dev";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -685,7 +685,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KCP8V8684D;
 				INFOPLIST_FILE = MyTestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -693,8 +696,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.truongluu.MyTestApp;
 				PRODUCT_NAME = MyTestApp;
+				PROVISIONING_PROFILE_SPECIFIER = "TruongLuu MyTestApp  dev";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
