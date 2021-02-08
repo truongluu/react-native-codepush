@@ -2,4 +2,14 @@
     <string name="app_name">MyTestApp</string>
     <string name="appCenterCrashes_whenToSendCrashes" moduleConfig="true" translatable="false">DO_NOT_ASK_JAVASCRIPT</string>
     <string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">wLYXyX9JOowZax3Qd6eCtloskRR3NJiK9og0g</string>
+     <string name="CodePushPublicKey">-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArhbpHWX7XUNFnXFw0Bzy
+tpuk23h65dSMF1eCphwGLfStIVMfRFV1kDesEy99lmPnIU4iV6BdoNsx1MrQiamw
+Gw9gq0rDjmqdSG7SIeg3rB49iuE2nG1ZMdcXg9OTOOMMaK6souYtWlM4ugGIPFbC
+QuTDBKz8cwnZGPuBjpnaV07SM7kfczrMEo9Fc6QqVwb0zu6AwEh0uvJKpxwGhEug
+Ti59lVy5CHVB1JAPMIbVqEGvLsyWtVH1z6R9rJvf2kowc+nLqkmAjn1VZH3NPyvh
+ZhZPyFf+tb+JCXKQejtrfuNdPgq6Vd6SVk+utNeRUx2pFxFVyt/IB9flCsglOxkO
+FwIDAQAB
+-----END PUBLIC KEY-----</string>
 </resources>
