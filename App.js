@@ -63,8 +63,7 @@ const App: () => React$Node = () => {
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Learn More</Text>
               <Text style={styles.sectionDescription}>
-                Read the docs to discover what to do next:1 update with
-                mnjmnjfjffj
+                Read the docs to discover what to do next: commit for new year
               </Text>
             </View>
             <LearnMoreLinks />

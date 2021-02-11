@@ -9,7 +9,12 @@ import {name as appName} from './app.json';
 
 AppRegistry.registerComponent(appName, () =>
   CodePush({
-    updateDialog: true,
+    updateDialog: {
+      optionalInstallButtonLabel: 'Cài đặt',
+      optionalIgnoreButtonLabel: 'Bỏ qua',
+      title: 'Cập nhật có sẵn',
+      optionalUpdateMessage: 'Đã có bản cập nhật, bạn có muốn cài đặt nó?',
+    },
     installMode: CodePush.InstallMode.IMMEDIATE,
     checkFrequency: CodePush.CheckFrequency.ON_APP_START,
   })(App),
